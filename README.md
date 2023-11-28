@@ -44,15 +44,15 @@ SOURCES      Path to one or more Java files or directories
 
 - Do not include constructors.
   ```
-  > java -jar java2umltext.jar --no-constructors ./src/main/java
+  > java -jar java2umltext.jar PLANTUML --no-constructors ./src/main/java
   ```
 - Include private AND public methods (notice you must include multiple `-m`).
   ```
-  > java -jar java2umltext.jar -m=public -m=private  ./src/main/java
+  > java -jar java2umltext.jar PLANTUML -m=public -m=private  ./src/main/java
   ```
 - Show package name and include private fields only.
   ```
-  > java -jar java2umltext.jar -f=private --package ./src/main/java
+  > java -jar java2umltext.jar PLANTUML -f=private --package ./src/main/java
   ```
 
 ## Build from source
